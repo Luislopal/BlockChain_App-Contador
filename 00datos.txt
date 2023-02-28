@@ -1,0 +1,20 @@
+
+Miembros de la pareja: Luis Alberto López Álvarez y Álvaro de Rojas Maraver
+
+Tarea 1
+Cree un proyecto Truffle que contenga el mismo smart contract que se desarrolló en la práctica 4, donde se añadió el método set.
+
+Tarea 2
+Desarrolle algunos tests javascript para probar la funcionalidad del método set.
+
+Los tests deben probar que el método set asigna el valor, y que se producen errores si se sale de rango.
+
+Tarea 3
+Adapte la aplicación web desarrollada en la práctica 4 para que use las facilidades proporcionadas por Truffle (@truffle/contract, TruffleContract, deployed, nueva forma de hacer llamadas y transacciones, ...).
+
+
+Para arrancar el servidor web:
+
+npx truffle migrate --compile-all --reset
+npx serve -S dapp 
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+    <script src="truffle-contract.min.js"></script>
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <h1>Contador</h1>
+
+    <div>
+       <button id="login">Login</button>
+       Cuenta: <span id="cuenta"></span>
+    </div>
+
+    <p> 
+      Valor actual = <span id="valor"> 0 </span> 
+    </p>
+
+    <span>
+      <input type="text" id="cset1"/>
+      <button type="button" id="cset2">Set</button>
+    </span>
+
+    <button type="button" id="cincr">Incrementar</button>
+  </body>
+</html>
